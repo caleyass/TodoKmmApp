@@ -1,4 +1,4 @@
-package com.naukma.todokmmapp.repository
+package com.naukma.todokmmapp.datasource
 
 import com.naukma.todokmmapp.TodoTask
 

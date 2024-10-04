@@ -35,7 +35,9 @@ kotlin {
         }
         commonMain.dependencies {
             implementation(libs.runtime)
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
         }
+
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }

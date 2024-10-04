@@ -1,8 +1,8 @@
-package com.naukma.todokmmapp.repository.impl
+package com.naukma.todokmmapp.datasource.impl
 
 import com.naukma.todokmmapp.TodoDatabase
 import com.naukma.todokmmapp.TodoTask
-import com.naukma.todokmmapp.repository.TodoDataSource
+import com.naukma.todokmmapp.datasource.TodoDataSource
 
 class TodoDataSourceImpl(db:TodoDatabase) : TodoDataSource{
 
