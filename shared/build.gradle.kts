@@ -12,6 +12,8 @@ kotlin {
             }
         }
     }
+
+    tasks.register("testClasses")
     
     listOf(
         iosX64(),
@@ -40,6 +42,14 @@ kotlin {
     }
 }
 
+sqldelight {
+    databases{
+        create("TodoDatabase"){
+            packageName.set("com.naukma.todokmmapp")
+        }
+    }
+}
+
 android {
     namespace = "com.naukma.todokmmapp"
     compileSdk = 34
@@ -51,3 +61,5 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
+
+
